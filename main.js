@@ -85,6 +85,59 @@
 // console.log(` ${obj.Name}`, `: ${obj.aGe}`);
 // console.log(` ${obj.name}`, `: ${obj.agE}`);
 
+//////////////// Object-18 /////////////////
+
+// const grades = [
+//   { name: "Fizika", grade1: 4, kredit1: 6 },
+//   { name: "Matematika", grade2: 5, kredit2: 6 },
+//   { name: "Tarix", grade1: 4, kredit1: 4 },
+//   { name: "Dasturlash", grade2: 5, kredit2: 8 },
+//   { name: "Kibrxavfsizlik", grade1: 4, kredit1: 8 },
+// ];
+// let GPA = (4 * 6 + 5 * 6) / (4 + 8);
+// console.log(GPA);
+
+//////////////// Object-19 /////////////////
+
+// const right_answers = {
+//   1: "B",
+//   2: "A",
+//   3: "C",
+//   4: "D",
+//   5: "B",
+//   6: "C",
+//   7: "A",
+//   8: "D",
+//   9: "A",
+//   10: "B",
+// };
+// const my_answers = {
+//   1: "C",
+//   2: "A",
+//   3: "D",
+//   4: "D",
+//   5: "B",
+//   6: "C",
+//   7: "B",
+//   8: "C",
+//   9: "A",
+//   10: "C",
+// };
+
+// let rightCount = 0;
+// let wrongCount = 0;
+
+// for (let question in right_answers) {
+//   if (right_answers[question] === my_answers[question]) {
+//     rightCount++;
+//   } else {
+//     wrongCount++;
+//   }
+// }
+
+// console.log(`To'g'ri javoblar soni: ${rightCount}`);
+// console.log(`Noto'g'ri javoblar soni: ${wrongCount}`);
+
 //////////////// Object-20 /////////////////
 
 // let n = 3;
